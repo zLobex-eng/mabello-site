@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#05070b" />
+  <title>MABELLO — Tecnologia que conecta. Soluções que transformam.</title>
+  <meta name="description" content="A MABELLO cria experiências digitais, sites, sistemas web e automações sob medida." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="ambient-light" id="ambientLight" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="cursor" id="cursor" aria-hidden="true"><span></span></div>
+  <div class="tech-hud" id="techHud" aria-hidden="true"><span>MABELLO / V10</span><i></i><b id="hudSection">INÍCIO</b><small id="hudCoords">X 0000 · Y 0000</small><em id="hudFps">FLUIDO</em></div>
+
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro-mark"><img src="assets/logo-mabello.png" alt="" /></div>
+    <div class="intro-copy"><small>MABELLO / EXPERIÊNCIA DIGITAL</small><strong>INICIANDO</strong></div>
+    <div class="intro-count" id="introCount">00</div>
+    <div class="intro-line"><i id="introLine"></i></div>
+  </div>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#top" aria-label="MABELLO — voltar ao início">
+      <img src="assets/logo-mabello.png" alt="Símbolo MABELLO" />
+      <strong>MABELLO</strong><small>T.I.</small>
+    </a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a><a href="#labs">Labs</a><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#core">Core</a><a href="#lobex">Lobex</a><a href="#contato">Contato</a>
+    </nav>
+    <a class="nav-cta magnetic" href="#contato"><span>Iniciar projeto</span><b>↗</b></a>
+    <button class="menu" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Navegação mobile">
+    <a href="#sobre">Sobre</a><a href="#labs">Labs</a><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#core">Core</a><a href="#lobex">Lobex</a><a href="#contato">Contato</a>
+  </nav>
+
+  <main id="conteudo">
+    <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <canvas class="hero-network" id="heroNetwork" aria-hidden="true"></canvas>
+      <div class="hero-orbit orbit-a" aria-hidden="true"></div><div class="hero-orbit orbit-b" aria-hidden="true"></div>
+      <div class="hero-symbol" aria-hidden="true"><img src="assets/logo-mabello.png" alt="" /></div>
+      <div class="hero-kicker reveal-up"><span>MABELLO / TECNOLOGIA COM IDENTIDADE</span><i></i><small>SISTEMA ONLINE</small></div>
+      <h1 class="hero-title" aria-label="Tecnologia que conecta. Soluções que transformam.">
+        <span class="line reveal-mask"><em>TECNOLOGIA</em></span>
+        <span class="line reveal-mask shift"><em>QUE <b>CONECTA.</b></em></span>
+        <span class="line reveal-mask outline"><em>TRANSFORMA.</em></span>
+      </h1>
+      <div class="hero-bottom reveal-up">
+        <p>Criamos experiências digitais que unem <b>identidade, movimento e tecnologia</b> para transformar ideias em soluções reais.</p>
+        <div class="hero-actions"><a class="pill primary magnetic" href="#labs"><span>Explorar projetos</span><b>↓</b></a><a class="pill magnetic" href="#contato"><span>Falar com a MABELLO</span><b>↗</b></a></div>
+      </div>
+      <div class="hero-telemetry reveal-up" aria-hidden="true">
+        <span><small>INTERFACE</small><b>VISUAL</b></span>
+        <i></i>
+        <span><small>MOVIMENTO</small><b>REATIVO</b></span>
+        <i></i>
+        <span><small>CÓDIGO</small><b>RESPONSIVO</b></span>
+      </div>
+      <div class="hero-console glass" aria-hidden="true">
+        <div class="console-head"><span></span><span></span><span></span><small>MABELLO / SISTEMA</small></div>
+        <div class="console-code"><i style="--w:74%"></i><i style="--w:48%"></i><i style="--w:86%"></i><i style="--w:58%"></i><i style="--w:67%"></i></div>
+        <div class="console-status"><small>STATUS</small><strong>CRIANDO ALGO NOVO</strong></div>
+      </div>
+      <div class="scroll-hint">ROLE PARA EXPLORAR <span>↓</span></div>
+    </section>
+
+    <section class="kinetic" aria-label="Áreas de atuação">
+      <div class="kinetic-track"><span>DESENVOLVIMENTO</span><i>✦</i><span>SITES</span><i>✦</i><span>AUTOMAÇÃO</span><i>✦</i><span>EXPERIÊNCIA DIGITAL</span><i>✦</i><span>MABELLO LABS</span><i>✦</i><span>DESENVOLVIMENTO</span><i>✦</i><span>SITES</span><i>✦</i><span>AUTOMAÇÃO</span></div>
+    </section>
+
+    <section class="manifesto section" id="sobre">
+      <aside class="section-index reveal-up"><span>01</span><small>QUEM SOMOS</small></aside>
+      <div class="manifesto-main">
+        <p class="overline reveal-up">A MABELLO nasce para construir tecnologia com propósito.</p>
+        <h2 class="big-copy">
+          <span class="reveal-mask"><em>NÃO QUEREMOS</em></span>
+          <span class="reveal-mask"><em>SÓ COLOCAR UM</em></span>
+          <span class="reveal-mask"><em><b>SITE NO AR.</b></em></span>
+          <span class="reveal-mask"><em>QUEREMOS CRIAR</em></span>
+          <span class="reveal-mask"><em>ALGO QUE <b>MARQUE.</b></em></span>
+        </h2>
+        <div class="manifesto-foot reveal-up">
+          <p>Começamos do zero, com transparência. Sem números inventados, sem clientes fictícios e sem prometer o que não podemos entregar. Cada projeto é uma oportunidade de evoluir a marca e o produto ao mesmo tempo.</p>
+          <div class="value-grid"><span>Clareza</span><span>Qualidade</span><span>Evolução</span><span>Parceria</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="labs" id="labs">
+      <div class="labs-intro section">
+        <aside class="section-index reveal-up"><span>02</span><small>MABELLO LABS</small></aside>
+        <div>
+          <p class="overline reveal-up">Projetos próprios, protótipos e experimentos.</p>
+          <h2 class="display reveal-up">IDEIAS QUE<br/><b>GANHAM MOVIMENTO.</b></h2>
+        </div>
+      </div>
+      <div class="horizontal-wrap" id="horizontalWrap">
+        <div class="horizontal-sticky">
+          <div class="labs-nav" aria-label="Navegação dos projetos MABELLO Labs">
+            <div class="labs-hint"><span>ROLE</span><i>OU</i><span>ARRASTE</span><b>↔</b></div>
+            <div class="labs-buttons">
+              <button class="labs-arrow" id="labsPrev" type="button" aria-label="Projeto anterior">←</button>
+              <button class="labs-arrow" id="labsNext" type="button" aria-label="Próximo projeto">→</button>
+            </div>
+          </div>
+          <div class="horizontal-progress"><i id="labsProgress"></i></div>
+          <div class="horizontal-rail" id="horizontalRail" aria-label="Projetos MABELLO Labs">
+            <article class="showcase card-one">
+              <div class="showcase-meta"><small>01 / EM DESENVOLVIMENTO</small><span>PRODUTO DIGITAL</span></div>
+              <div class="showcase-visual visual-product"><div class="visual-scan" aria-hidden="true"></div>
+                <div class="blueprint-grid" aria-hidden="true"></div>
+                <div class="project-shell">
+                  <div class="project-shell-top"><span>MABELLO LABS</span><small>PROJETO / 001</small></div>
+                  <div class="project-shell-main">
+                    <div class="project-title"><small>STATUS ATUAL</small><strong>CONSTRUINDO<br/>DO ZERO.</strong></div>
+                    <div class="project-system">
+                      <span><i></i> IDEIA</span><span class="active"><i></i> PROTÓTIPO</span><span><i></i> PRODUTO</span>
+                    </div>
+                    <div class="project-lines"><i></i><i></i><i></i><i></i></div>
+                  </div>
+                </div>
+                <div class="project-chip chip-a"><small>01</small><b>ESTRUTURA</b></div>
+                <div class="project-chip chip-b"><small>02</small><b>INTERFACE</b></div>
+                <div class="project-orb"><img src="assets/logo-mabello.png" alt="" /></div>
+              </div>
+              <div class="showcase-copy"><div class="copy-index">LAB / 01</div><h3>Primeiro<br/>produto próprio.</h3><p>Um espaço para transformar uma ideia real em produto, documentando decisões, testes e evolução sem inventar portfólio.</p><span class="tag">EM CONSTRUÇÃO</span></div>
+            </article>
+            <article class="showcase card-two">
+              <div class="showcase-meta"><small>02 / EXPERIMENTO</small><span>IDENTIDADE + MOVIMENTO</span></div>
+              <div class="showcase-visual visual-identity"><div class="visual-scan" aria-hidden="true"></div>
+                <div class="identity-grid" aria-hidden="true"></div>
+                <div class="identity-word"><span>MENOS</span><strong>TEMPLATE.</strong><small>MAIS IDENTIDADE.</small></div>
+                <div class="identity-m"><img src="assets/logo-mabello.png" alt="" /></div>
+                <div class="identity-ring ring-one"></div><div class="identity-ring ring-two"></div>
+                <div class="identity-label label-a">DIREÇÃO VISUAL</div><div class="identity-label label-b">INTERAÇÃO</div>
+                <div class="identity-palette"><i></i><i></i><i></i><i></i></div>
+                <div class="identity-cross c1">+</div><div class="identity-cross c2">+</div>
+              </div>
+              <div class="showcase-copy"><div class="copy-index">LAB / 02</div><h3>Experiências<br/>com identidade.</h3><p>Tipografia, movimento, ritmo e microinterações trabalhando juntos para a interface parecer realmente construída para a marca.</p><span class="tag">EXPERIMENTO VISUAL</span></div>
+            </article>
+            <article class="showcase card-three">
+              <div class="showcase-meta"><small>03 / MABELLO</small><span>ESTE SITE</span></div>
+              <div class="showcase-visual visual-site"><div class="visual-scan" aria-hidden="true"></div>
+                <div class="site-grid" aria-hidden="true"></div>
+                <div class="site-browser">
+                  <div class="browser-top"><i></i><i></i><i></i><span>mabello.dev / experiência</span></div>
+                  <div class="browser-screen">
+                    <div class="mini-brand"><img src="assets/logo-mabello.png" alt="" /><b>MABELLO</b></div>
+                    <div class="mini-hero"><small>TECNOLOGIA QUE</small><strong>CONECTA.</strong><em>TRANSFORMA.</em></div>
+                    <div class="mini-panels"><i></i><i></i><i></i></div>
+                  </div>
+                </div>
+                <div class="site-diagnostics">
+                  <span><small>01</small><b>ESTRUTURA</b></span><span><small>02</small><b>MOVIMENTO</b></span><span><small>03</small><b>RESPONSIVO</b></span>
+                </div>
+                <div class="site-version"><small>VERSÃO</small><strong>10</strong><span>EDIÇÃO FINAL</span></div>
+              </div>
+              <div class="showcase-copy"><div class="copy-index">LAB / 03</div><h3>O próprio site<br/>é um laboratório.</h3><p>Cada versão testa uma ideia nova e refina estrutura, navegação, responsividade e desempenho sem perder a identidade aprovada.</p><span class="tag">V10 / EXPERIÊNCIA</span></div>
+            </article>
+            <div class="rail-endcap" aria-hidden="true"><span>FIM DA SEQUÊNCIA</span><i></i></div>
+          </div>
+          <div class="labs-counter"><span id="labsCounter">01</span><small>/ 03</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="servicos">
+      <aside class="section-index reveal-up"><span>03</span><small>SERVIÇOS</small></aside>
+      <div class="services-main">
+        <div class="services-head"><h2 class="display reveal-up">DO CÓDIGO<br/>À <b>EXPERIÊNCIA.</b></h2><p class="reveal-up">Começando pelo que conseguimos construir com qualidade e ampliando a oferta conforme a MABELLO evolui.</p></div>
+        <div class="service-list">
+          <article class="service-row reveal-up" data-word="SITE"><small>01</small><h3>Sites & Landing Pages</h3><p>Presença digital rápida, responsiva e com direção visual forte.</p><em>HTML · CSS · JS</em><b>↗</b></article>
+          <article class="service-row reveal-up" data-word="WEB"><small>02</small><h3>Sistemas Web</h3><p>Ferramentas digitais para organizar fluxos, dados e rotinas.</p><em>INTERFACE · DADOS</em><b>↗</b></article>
+          <article class="service-row reveal-up" data-word="AUTO"><small>03</small><h3>Automação</h3><p>Integrações e processos que reduzem tarefas repetitivas.</p><em>PROCESSOS · INTEGRAÇÕES</em><b>↗</b></article>
+          <article class="service-row reveal-up" data-word="SOB MEDIDA"><small>04</small><h3>Soluções Sob Medida</h3><p>Produtos digitais pensados em torno de uma necessidade real.</p><em>ESTRATÉGIA · PRODUTO</em><b>↗</b></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section" id="processo">
+      <aside class="section-index reveal-up"><span>04</span><small>PROCESSO</small></aside>
+      <div class="process-main">
+        <h2 class="display reveal-up">CLARO DO COMEÇO<br/><b>AO LANÇAMENTO.</b></h2>
+        <div class="process-grid">
+          <article class="process-step reveal-up"><span>01</span><div><h3>Descoberta</h3><p>Entendemos o problema, o público e o objetivo.</p></div><i>↘</i></article>
+          <article class="process-step reveal-up"><span>02</span><div><h3>Direção</h3><p>Definimos estrutura, linguagem visual e experiência.</p></div><i>↘</i></article>
+          <article class="process-step reveal-up"><span>03</span><div><h3>Construção</h3><p>Transformamos a ideia em código responsivo e organizado.</p></div><i>↘</i></article>
+          <article class="process-step reveal-up"><span>04</span><div><h3>Validação</h3><p>Testamos usabilidade, comportamento e desempenho.</p></div><i>↘</i></article>
+          <article class="process-step reveal-up"><span>05</span><div><h3>Lançamento</h3><p>Publicamos, conectamos o domínio e continuamos evoluindo.</p></div><i>↗</i></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement" aria-label="Posicionamento MABELLO">
+      <div class="statement-bg" id="statementBg">CRIE IMPACTO. CRIE IMPACTO.</div>
+      <div class="statement-lines" aria-hidden="true"></div>
+      <div class="statement-orb" id="statementOrb"><img src="assets/logo-mabello.png" alt=""/><small>MABELLO</small><strong>MENOS TEMPLATE.<br/>MAIS IDENTIDADE.</strong><span>TECNOLOGIA COM PROPÓSITO</span></div>
+    </section>
+
+
+    <section class="core section" id="core">
+      <aside class="section-index reveal-up"><span>05</span><small>MABELLO CORE</small></aside>
+      <div class="core-main">
+        <div class="core-head">
+          <p class="overline reveal-up">Tecnologia que você consegue ver — e sentir.</p>
+          <h2 class="display reveal-up">O CÓDIGO TAMBÉM<br/>FAZ PARTE DA <b>EXPERIÊNCIA.</b></h2>
+          <p class="core-lead reveal-up">Esta área mostra, de forma interativa, parte da lógica por trás do próprio site da MABELLO. Sem números inventados: só recursos que realmente existem aqui.</p>
+        </div>
+        <div class="core-grid">
+          <div class="terminal reveal-up" id="terminal">
+            <div class="terminal-top"><div><i></i><i></i><i></i></div><span>MABELLO_CORE.EXE</span><small>ONLINE</small></div>
+            <div class="terminal-body" id="terminalBody">
+              <p><span>mabello@core</span>:~$ <b>iniciar</b></p>
+              <p class="terminal-output">Sistema carregado. Digite <strong>ajuda</strong> para explorar. <span class="terminal-hint">Dica: pressione / para focar o terminal.</span></p>
+            </div>
+            <form class="terminal-form" id="terminalForm" autocomplete="off">
+              <label for="terminalInput">mabello@core:~$</label><input id="terminalInput" name="terminal" spellcheck="false" aria-label="Terminal interativo MABELLO" placeholder="ajuda"/><button type="submit">↵</button>
+            </form>
+          </div>
+          <div class="core-orbit reveal-up" aria-label="Tecnologias presentes neste site">
+            <div class="orbit-core"><img src="assets/logo-mabello.png" alt=""/><span>MABELLO</span><small>CORE</small></div>
+            <div class="orbit-line ol1"></div><div class="orbit-line ol2"></div><div class="orbit-line ol3"></div>
+            <span class="tech-node n1">HTML</span><span class="tech-node n2">CSS</span><span class="tech-node n3">JAVASCRIPT</span><span class="tech-node n4">CANVAS</span><span class="tech-node n5">RESPONSIVO</span><span class="tech-node n6">ACESSÍVEL</span>
+            <div class="core-scan"></div>
+          </div>
+        </div>
+        <div class="core-strip reveal-up"><span>SCROLL TRIGGER</span><i>+</i><span>CURSOR REATIVO</span><i>+</i><span>CANVAS</span><i>+</i><span>MICROINTERAÇÕES</span><i>+</i><span>RESPONSIVIDADE</span><i>+</i><span>REDUCED MOTION</span></div>
+      </div>
+    </section>
+
+    <section class="lobex section" id="lobex">
+      <aside class="section-index reveal-up"><span>06</span><small>LOBEX</small></aside>
+      <div class="lobex-main">
+        <div class="lobex-copy"><p class="overline reveal-up">O espírito da MABELLO.</p><h2 class="display reveal-up">ESTRATÉGIA,<br/>CURIOSIDADE E<br/><b>EVOLUÇÃO.</b></h2><p class="reveal-up">O Lobex representa a vontade de aprender, testar caminhos e transformar desafios em soluções. Ele aparece como parte da identidade — não como decoração aleatória.</p><blockquote class="reveal-up">“Se tem um jeito, eu codifico. Se não tem, eu crio.”</blockquote></div>
+        <div class="lobex-visual reveal-up"><div class="lobex-ring r1"></div><div class="lobex-ring r2"></div><div class="lobex-ring r3"></div><img src="assets/lobex.png" alt="Lobex, mascote lobo da MABELLO" /></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <aside class="section-index reveal-up"><span>07</span><small>CONTATO</small></aside>
+      <div class="contact-main">
+        <div class="contact-head"><h2 class="display reveal-up">TEM UMA IDEIA?<br/><b>VAMOS DAR MOVIMENTO.</b></h2><a class="contact-orb magnetic reveal-up" href="https://wa.me/5511966188923" target="_blank" rel="noreferrer"><span>FALAR NO<br/>WHATSAPP</span><b>↗</b></a></div>
+        <div class="contact-cards">
+          <a class="info-card reveal-up" href="mailto:anderson.cauezinho@gmail.com"><small>E-MAIL</small><strong>anderson.cauezinho@gmail.com</strong><b>↗</b></a>
+          <a class="info-card reveal-up" href="https://instagram.com/mabello.dev" target="_blank" rel="noreferrer"><small>INSTAGRAM</small><strong>@mabello.dev</strong><b>↗</b></a>
+          <a class="info-card reveal-up" href="https://wa.me/5511966188923" target="_blank" rel="noreferrer"><small>WHATSAPP</small><strong>(11) 96618-8923</strong><b>↗</b></a>
+          <div class="info-card reveal-up"><small>LOCALIZAÇÃO</small><strong>Indaiatuba — SP</strong><b>⌖</b></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><a class="brand" href="#top"><img src="assets/logo-mabello.png" alt="Símbolo MABELLO"/><strong>MABELLO</strong><small>T.I.</small></a><p>Tecnologia que conecta.<br/>Soluções que transformam.</p></div>
+    <div class="footer-nav"><small>NAVEGAÇÃO</small><a href="#sobre">Sobre</a><a href="#labs">Labs</a><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#core">Core</a></div>
+    <div class="footer-nav"><small>CONTATO</small><a href="mailto:anderson.cauezinho@gmail.com">E-mail</a><a href="https://instagram.com/mabello.dev">Instagram</a><a href="https://wa.me/5511966188923">WhatsApp</a></div>
+    <span class="copyright">© 2026 MABELLO</span>
+  </footer>
+  <button class="back-top" id="backTop" type="button" aria-label="Voltar ao topo">↑</button>
+  <script src="script.js" defer></script>
+</body>
+</html>
