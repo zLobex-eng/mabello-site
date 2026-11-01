@@ -4,7 +4,7 @@
 
 🔗 **Site publicado:** https://mabello-site.vercel.app
 
-📲 **Contato:** botão que abre uma conversa direta no WhatsApp
+📲 **Contato:** preenchendo formulário, para que possa entrar em contato
 
 ## Tecnologias
 
