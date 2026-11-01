@@ -4,6 +4,8 @@
 
 🔗 **Site publicado:** https://mabello-site.vercel.app
 
+📲 **Contato:** botão que abre uma conversa direta no WhatsApp
+
 ## Tecnologias
 
 - HTML: estrutura e textos do site
@@ -24,11 +26,6 @@
 2. Abra o arquivo `index.html` no navegador.
 
 Para estudar o código, abra a pasta inteira no VS Code. Se tiver a extensão Live Server, clique com o botão direito em `index.html` e escolha **Open with Live Server**.
-
-## Próximos passos
-
-- Implementar o formulário de contato no servidor
-- Componentizar a interface em uma próxima etapa de estudos
 
 ## Autor
 
