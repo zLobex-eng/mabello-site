@@ -4,7 +4,7 @@
 
 🔗 **Site publicado:** https://mabello-site.vercel.app
 
-📲 **Contato:** preenchendo formulário, para que possa entrar em contato
+📲 **Contato:** formulário que monta a mensagem e abre o WhatsApp
 
 ## Tecnologias
 
@@ -17,7 +17,7 @@
 
 - `index.html`: estrutura e textos
 - `styles.css`: visual, responsividade e animações
-- `script.js`: interações, scroll, cursor, Canvas e terminal
+- `script.js`: menu do celular, efeito do cabeçalho ao rolar e formulário que abre o WhatsApp com a mensagem pronta
 - `assets/`: logo e imagens
 
 ## Como abrir o projeto
