@@ -3,265 +3,274 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#05070b" />
-  <title>MABELLO — Tecnologia que conecta. Soluções que transformam.</title>
-  <meta name="description" content="A MABELLO cria experiências digitais, sites, sistemas web e automações sob medida." />
+  <meta name="theme-color" content="#070b12" />
+  <title>MABELLO T.I. — Sites, sistemas web e automações sob medida</title>
+  <meta name="description" content="A MABELLO desenvolve sites, sistemas web e automações sob medida para empresas e profissionais de Indaiatuba e região." />
+  <link rel="icon" href="assets/logo-mabello.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-  <div class="noise" aria-hidden="true"></div>
-  <div class="ambient-light" id="ambientLight" aria-hidden="true"></div>
-  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
-  <div class="cursor" id="cursor" aria-hidden="true"><span></span></div>
-  <div class="tech-hud" id="techHud" aria-hidden="true"><span>MABELLO / V10</span><i></i><b id="hudSection">INÍCIO</b><small id="hudCoords">X 0000 · Y 0000</small><em id="hudFps">FLUIDO</em></div>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
-  <div class="intro" id="intro" aria-hidden="true">
-    <div class="intro-mark"><img src="assets/logo-mabello.png" alt="" /></div>
-    <div class="intro-copy"><small>MABELLO / EXPERIÊNCIA DIGITAL</small><strong>INICIANDO</strong></div>
-    <div class="intro-count" id="introCount">00</div>
-    <div class="intro-line"><i id="introLine"></i></div>
-  </div>
-
-  <header class="topbar" id="topbar">
-    <a class="brand" href="#top" aria-label="MABELLO — voltar ao início">
-      <img src="assets/logo-mabello.png" alt="Símbolo MABELLO" />
-      <strong>MABELLO</strong><small>T.I.</small>
-    </a>
-    <nav class="nav" aria-label="Navegação principal">
-      <a href="#sobre">Sobre</a><a href="#labs">Labs</a><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#core">Core</a><a href="#lobex">Lobex</a><a href="#contato">Contato</a>
-    </nav>
-    <a class="nav-cta magnetic" href="#contato"><span>Iniciar projeto</span><b>↗</b></a>
-    <button class="menu" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
+  <header class="header" id="header">
+    <div class="wrap bar">
+      <a class="brand" href="#inicio" aria-label="MABELLO T.I. — início">
+        <img src="assets/logo-mabello.png" alt="" width="34" height="30" /><strong>MABELLO</strong><span>T.I.</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#processo">Como trabalhamos</a>
+        <a href="#projetos">Portfólio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn-sm" href="#contato">Pedir orçamento</a>
+      <button class="menu" id="menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><i></i><i></i></button>
+    </div>
   </header>
-  <nav class="mobile-nav" id="mobileNav" aria-label="Navegação mobile">
-    <a href="#sobre">Sobre</a><a href="#labs">Labs</a><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#core">Core</a><a href="#lobex">Lobex</a><a href="#contato">Contato</a>
-  </nav>
 
   <main id="conteudo">
-    <section class="hero" id="top">
-      <div class="hero-grid" aria-hidden="true"></div>
-      <canvas class="hero-network" id="heroNetwork" aria-hidden="true"></canvas>
-      <div class="hero-orbit orbit-a" aria-hidden="true"></div><div class="hero-orbit orbit-b" aria-hidden="true"></div>
-      <div class="hero-symbol" aria-hidden="true"><img src="assets/logo-mabello.png" alt="" /></div>
-      <div class="hero-kicker reveal-up"><span>MABELLO / TECNOLOGIA COM IDENTIDADE</span><i></i><small>SISTEMA ONLINE</small></div>
-      <h1 class="hero-title" aria-label="Tecnologia que conecta. Soluções que transformam.">
-        <span class="line reveal-mask"><em>TECNOLOGIA</em></span>
-        <span class="line reveal-mask shift"><em>QUE <b>CONECTA.</b></em></span>
-        <span class="line reveal-mask outline"><em>TRANSFORMA.</em></span>
-      </h1>
-      <div class="hero-bottom reveal-up">
-        <p>Criamos experiências digitais que unem <b>identidade, movimento e tecnologia</b> para transformar ideias em soluções reais.</p>
-        <div class="hero-actions"><a class="pill primary magnetic" href="#labs"><span>Explorar projetos</span><b>↓</b></a><a class="pill magnetic" href="#contato"><span>Falar com a MABELLO</span><b>↗</b></a></div>
-      </div>
-      <div class="hero-telemetry reveal-up" aria-hidden="true">
-        <span><small>INTERFACE</small><b>VISUAL</b></span>
-        <i></i>
-        <span><small>MOVIMENTO</small><b>REATIVO</b></span>
-        <i></i>
-        <span><small>CÓDIGO</small><b>RESPONSIVO</b></span>
-      </div>
-      <div class="hero-console glass" aria-hidden="true">
-        <div class="console-head"><span></span><span></span><span></span><small>MABELLO / SISTEMA</small></div>
-        <div class="console-code"><i style="--w:74%"></i><i style="--w:48%"></i><i style="--w:86%"></i><i style="--w:58%"></i><i style="--w:67%"></i></div>
-        <div class="console-status"><small>STATUS</small><strong>CRIANDO ALGO NOVO</strong></div>
-      </div>
-      <div class="scroll-hint">ROLE PARA EXPLORAR <span>↓</span></div>
-    </section>
-
-    <section class="kinetic" aria-label="Áreas de atuação">
-      <div class="kinetic-track"><span>DESENVOLVIMENTO</span><i>✦</i><span>SITES</span><i>✦</i><span>AUTOMAÇÃO</span><i>✦</i><span>EXPERIÊNCIA DIGITAL</span><i>✦</i><span>MABELLO LABS</span><i>✦</i><span>DESENVOLVIMENTO</span><i>✦</i><span>SITES</span><i>✦</i><span>AUTOMAÇÃO</span></div>
-    </section>
-
-    <section class="manifesto section" id="sobre">
-      <aside class="section-index reveal-up"><span>01</span><small>QUEM SOMOS</small></aside>
-      <div class="manifesto-main">
-        <p class="overline reveal-up">A MABELLO nasce para construir tecnologia com propósito.</p>
-        <h2 class="big-copy">
-          <span class="reveal-mask"><em>NÃO QUEREMOS</em></span>
-          <span class="reveal-mask"><em>SÓ COLOCAR UM</em></span>
-          <span class="reveal-mask"><em><b>SITE NO AR.</b></em></span>
-          <span class="reveal-mask"><em>QUEREMOS CRIAR</em></span>
-          <span class="reveal-mask"><em>ALGO QUE <b>MARQUE.</b></em></span>
-        </h2>
-        <div class="manifesto-foot reveal-up">
-          <p>Começamos do zero, com transparência. Sem números inventados, sem clientes fictícios e sem prometer o que não podemos entregar. Cada projeto é uma oportunidade de evoluir a marca e o produto ao mesmo tempo.</p>
-          <div class="value-grid"><span>Clareza</span><span>Qualidade</span><span>Evolução</span><span>Parceria</span></div>
+    <section class="hero" id="inicio">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <h1>Sites e sistemas que fazem seu negócio funcionar melhor.</h1>
+          <p class="lead">A MABELLO é a marca de tecnologia de Anderson Cauê Martins, desenvolvedor web em Indaiatuba. Sites, sistemas e automações sob medida, com atendimento direto do primeiro contato à entrega.</p>
+          <div class="actions">
+            <a class="btn" href="#contato">Pedir orçamento</a>
+            <a class="btn btn-ghost" href="#projetos">Ver portfólio</a>
+          </div>
+          <ul class="checks">
+            <li>Código próprio, sem templates prontos</li>
+            <li>Funciona em celular, tablet e computador</li>
+            <li>Atendimento direto pelo WhatsApp</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mock">
+            <div class="mock-top"><i></i><i></i><i></i><span>seunegocio.com.br</span></div>
+            <div class="mock-body">
+              <div class="mock-nav"><b></b><u></u><u></u><u></u></div>
+              <div class="mock-hero"><em></em><em></em><em class="s"></em><span></span></div>
+              <div class="mock-cards"><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="float f1"><b>Pedido recebido</b><small>Enviado ao WhatsApp</small></div>
+          <div class="float f2"><b>Planilha atualizada</b><small>Automático, sem digitar</small></div>
         </div>
       </div>
     </section>
 
-    <section class="labs" id="labs">
-      <div class="labs-intro section">
-        <aside class="section-index reveal-up"><span>02</span><small>MABELLO LABS</small></aside>
+    <section class="band" aria-label="Tecnologias utilizadas">
+      <div class="wrap band-in">
+        <p>Tecnologias que usamos</p>
+        <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>APIs e integrações</li><li>Excel e planilhas</li></ul>
+      </div>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="wrap">
+        <div class="head">
+          <h2>O que a MABELLO faz</h2>
+          <p>Quatro frentes de trabalho, todas com o mesmo cuidado: entender o seu problema antes de escrever a primeira linha de código.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg>
+            <h3>Sites e landing pages</h3>
+            <p>Sites rápidos e organizados para apresentar sua empresa, captar contatos e aparecer bem no Google.</p>
+            <ul><li>Layout responsivo</li><li>Botão direto para WhatsApp</li><li>Domínio e publicação</li></ul>
+          </article>
+          <article class="card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM4 10h16M9 10v9"/></svg>
+            <h3>Sistemas web</h3>
+            <p>Painéis e ferramentas para organizar pedidos, estoque, clientes e rotinas que hoje ficam espalhadas.</p>
+            <ul><li>Cadastros e relatórios</li><li>Acesso por login</li><li>Dados centralizados</li></ul>
+          </article>
+          <article class="card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M18 6l-2.5 2.5M8.5 15.5L6 18"/></svg>
+            <h3>Automações</h3>
+            <p>Tarefas repetitivas viram processos automáticos: planilhas que se atualizam, avisos e integrações entre sistemas.</p>
+            <ul><li>Menos trabalho manual</li><li>Menos erro de digitação</li><li>Integração com Excel e APIs</li></ul>
+          </article>
+          <article class="card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+            <h3>Soluções sob medida</h3>
+            <p>Tem uma ideia que não se encaixa em nada pronto? Desenhamos e construímos o produto digital do zero.</p>
+            <ul><li>Análise da necessidade</li><li>Protótipo antes de construir</li><li>Evolução em etapas</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="processo">
+      <div class="wrap split">
+        <div class="head sticky">
+          <h2>Como trabalhamos</h2>
+          <p>Um processo simples, com você participando em cada etapa e sabendo sempre o que vem a seguir.</p>
+          <a class="btn" href="#contato">Começar conversa</a>
+        </div>
+        <ol class="steps">
+          <li><span>1</span><div><h3>Conversa inicial</h3><p>Entendemos seu negócio, o problema a resolver e o que você espera do resultado. Sem compromisso.</p></div></li>
+          <li><span>2</span><div><h3>Proposta e escopo</h3><p>Você recebe o que será feito, o prazo e o valor, tudo combinado antes de começar.</p></div></li>
+          <li><span>3</span><div><h3>Desenvolvimento</h3><p>Construímos em etapas e mostramos o andamento, para você ajustar enquanto está sendo feito.</p></div></li>
+          <li><span>4</span><div><h3>Testes</h3><p>Verificamos o funcionamento em celular e computador antes de publicar qualquer coisa.</p></div></li>
+          <li><span>5</span><div><h3>Publicação e suporte</h3><p>Colocamos no ar, conectamos o domínio e seguimos disponíveis para ajustes e melhorias.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="diferenciais">
+      <div class="wrap">
+        <div class="head">
+          <h2>Por que trabalhar com a MABELLO</h2>
+          <p>Somos uma empresa nova e dizemos isso com clareza. Em troca, você recebe atenção e transparência que grandes agências raramente oferecem.</p>
+        </div>
+        <div class="grid3">
+          <div class="plain"><h3>Contato direto</h3><p>Quem conversa com você é quem desenvolve. Nada se perde entre atendimento, gerente e programador.</p></div>
+          <div class="plain"><h3>Transparência</h3><p>Prazo, valor e escopo combinados antes do início. Não prometemos o que não podemos entregar.</p></div>
+          <div class="plain"><h3>Visão de operação</h3><p>Conhecemos a rotina de operações logísticas, e isso ajuda a criar ferramentas pensadas para o dia a dia real.</p></div>
+          <div class="plain"><h3>Código organizado</h3><p>Projetos limpos e documentados, fáceis de manter e de evoluir quando o negócio crescer.</p></div>
+          <div class="plain"><h3>Foco em resultado</h3><p>Cada decisão de design tem um objetivo: facilitar o contato do cliente e a rotina da sua equipe.</p></div>
+          <div class="plain"><h3>Atendimento local</h3><p>Sediada em Indaiatuba, atendemos a região presencialmente e o Brasil inteiro online.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="projetos">
+      <div class="wrap">
+        <div class="head">
+          <h2>Portfólio</h2>
+          <p>Projetos publicados e em construção. Cada um mostra o que já sei fazer e o que estou aprendendo, com o código aberto no GitHub quando possível.</p>
+        </div>
+        <div class="cards three">
+          <article class="project">
+            <div class="thumb t1" aria-hidden="true"><span></span><span></span><span></span></div>
+            <small>No ar</small>
+            <h3>Site da MABELLO T.I.</h3>
+            <p>Este site, em HTML, CSS e JavaScript puros, responsivo e acessível, publicado na Vercel. Evolui por versões.</p>
+            <div class="links"><a href="https://github.com/zLobex-eng/mabello-site" target="_blank" rel="noreferrer">Código no GitHub</a></div>
+          </article>
+          <article class="project">
+            <div class="thumb t2" aria-hidden="true"><span></span><span></span><span></span></div>
+            <small>No ar</small>
+            <h3>Studio Wesley Barbosa</h3>
+            <p>Site desenvolvido para um profissional, com apresentação dos serviços e contato direto.</p>
+            <div class="links"><a href="https://studio-wesley-barbosa.vercel.app" target="_blank" rel="noreferrer">Ver site</a></div>
+          </article>
+          <article class="project">
+            <div class="thumb t3" aria-hidden="true"><span></span><span></span><span></span></div>
+            <small>Em desenvolvimento</small>
+            <h3>Projeto de IA generativa</h3>
+            <p>Assistente que responde perguntas sobre documentos, construído etapa por etapa para estudar APIs, LLMs e Python.</p>
+            <div class="links"><a href="https://github.com/zLobex-eng" target="_blank" rel="noreferrer">Acompanhar no GitHub</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="wrap split">
+        <div class="head">
+          <h2>Quem desenvolve a MABELLO</h2>
+          <p>Sou Anderson Cauê Martins, estudante de Engenharia de Software na Faculdade Ceunsp, em Indaiatuba. A MABELLO é minha marca de tecnologia e também meu portfólio: cada projeto daqui faz parte do meu aprendizado e é publicado de forma transparente.</p>
+          <p>Estou aberto a oportunidades de estágio e vagas júnior em desenvolvimento, além de projetos para clientes.</p>
+          <div class="actions">
+            <a class="btn" href="https://github.com/zLobex-eng" target="_blank" rel="noreferrer">Ver GitHub</a>
+            <a class="btn btn-ghost" href="mailto:anderson.cauezinho@gmail.com">Enviar e-mail</a>
+          </div>
+        </div>
+        <div class="stack">
+          <h3>Tecnologias</h3>
+          <ul>
+            <li><b>HTML, CSS e JavaScript</b><span>Uso diário</span></li>
+            <li><b>Git, GitHub e Vercel</b><span>Uso diário</span></li>
+            <li><b>Excel e automação de planilhas</b><span>Uso no trabalho</span></li>
+            <li><b>Linguagem C</b><span>Na faculdade</span></li>
+            <li><b>Python</b><span>Em estudo</span></li>
+            <li><b>APIs e IA generativa</b><span>Em estudo</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="lobex">
+      <div class="wrap lobex">
         <div>
-          <p class="overline reveal-up">Projetos próprios, protótipos e experimentos.</p>
-          <h2 class="display reveal-up">IDEIAS QUE<br/><b>GANHAM MOVIMENTO.</b></h2>
+          <h2>O Lobex, mascote da MABELLO</h2>
+          <p>O lobo representa o jeito de trabalhar da empresa: estratégia para escolher o caminho, curiosidade para aprender o que for preciso e persistência para entregar.</p>
+          <blockquote>“Se tem um jeito, eu codifico. Se não tem, eu crio.”</blockquote>
         </div>
+        <div class="lobex-img"><img src="assets/lobex.png" alt="Lobex, mascote lobo da MABELLO" loading="lazy" /></div>
       </div>
-      <div class="horizontal-wrap" id="horizontalWrap">
-        <div class="horizontal-sticky">
-          <div class="labs-nav" aria-label="Navegação dos projetos MABELLO Labs">
-            <div class="labs-hint"><span>ROLE</span><i>OU</i><span>ARRASTE</span><b>↔</b></div>
-            <div class="labs-buttons">
-              <button class="labs-arrow" id="labsPrev" type="button" aria-label="Projeto anterior">←</button>
-              <button class="labs-arrow" id="labsNext" type="button" aria-label="Próximo projeto">→</button>
-            </div>
-          </div>
-          <div class="horizontal-progress"><i id="labsProgress"></i></div>
-          <div class="horizontal-rail" id="horizontalRail" aria-label="Projetos MABELLO Labs">
-            <article class="showcase card-one">
-              <div class="showcase-meta"><small>01 / EM DESENVOLVIMENTO</small><span>PRODUTO DIGITAL</span></div>
-              <div class="showcase-visual visual-product"><div class="visual-scan" aria-hidden="true"></div>
-                <div class="blueprint-grid" aria-hidden="true"></div>
-                <div class="project-shell">
-                  <div class="project-shell-top"><span>MABELLO LABS</span><small>PROJETO / 001</small></div>
-                  <div class="project-shell-main">
-                    <div class="project-title"><small>STATUS ATUAL</small><strong>CONSTRUINDO<br/>DO ZERO.</strong></div>
-                    <div class="project-system">
-                      <span><i></i> IDEIA</span><span class="active"><i></i> PROTÓTIPO</span><span><i></i> PRODUTO</span>
-                    </div>
-                    <div class="project-lines"><i></i><i></i><i></i><i></i></div>
-                  </div>
-                </div>
-                <div class="project-chip chip-a"><small>01</small><b>ESTRUTURA</b></div>
-                <div class="project-chip chip-b"><small>02</small><b>INTERFACE</b></div>
-                <div class="project-orb"><img src="assets/logo-mabello.png" alt="" /></div>
-              </div>
-              <div class="showcase-copy"><div class="copy-index">LAB / 01</div><h3>Primeiro<br/>produto próprio.</h3><p>Um espaço para transformar uma ideia real em produto, documentando decisões, testes e evolução sem inventar portfólio.</p><span class="tag">EM CONSTRUÇÃO</span></div>
-            </article>
-            <article class="showcase card-two">
-              <div class="showcase-meta"><small>02 / EXPERIMENTO</small><span>IDENTIDADE + MOVIMENTO</span></div>
-              <div class="showcase-visual visual-identity"><div class="visual-scan" aria-hidden="true"></div>
-                <div class="identity-grid" aria-hidden="true"></div>
-                <div class="identity-word"><span>MENOS</span><strong>TEMPLATE.</strong><small>MAIS IDENTIDADE.</small></div>
-                <div class="identity-m"><img src="assets/logo-mabello.png" alt="" /></div>
-                <div class="identity-ring ring-one"></div><div class="identity-ring ring-two"></div>
-                <div class="identity-label label-a">DIREÇÃO VISUAL</div><div class="identity-label label-b">INTERAÇÃO</div>
-                <div class="identity-palette"><i></i><i></i><i></i><i></i></div>
-                <div class="identity-cross c1">+</div><div class="identity-cross c2">+</div>
-              </div>
-              <div class="showcase-copy"><div class="copy-index">LAB / 02</div><h3>Experiências<br/>com identidade.</h3><p>Tipografia, movimento, ritmo e microinterações trabalhando juntos para a interface parecer realmente construída para a marca.</p><span class="tag">EXPERIMENTO VISUAL</span></div>
-            </article>
-            <article class="showcase card-three">
-              <div class="showcase-meta"><small>03 / MABELLO</small><span>ESTE SITE</span></div>
-              <div class="showcase-visual visual-site"><div class="visual-scan" aria-hidden="true"></div>
-                <div class="site-grid" aria-hidden="true"></div>
-                <div class="site-browser">
-                  <div class="browser-top"><i></i><i></i><i></i><span>mabello.dev / experiência</span></div>
-                  <div class="browser-screen">
-                    <div class="mini-brand"><img src="assets/logo-mabello.png" alt="" /><b>MABELLO</b></div>
-                    <div class="mini-hero"><small>TECNOLOGIA QUE</small><strong>CONECTA.</strong><em>TRANSFORMA.</em></div>
-                    <div class="mini-panels"><i></i><i></i><i></i></div>
-                  </div>
-                </div>
-                <div class="site-diagnostics">
-                  <span><small>01</small><b>ESTRUTURA</b></span><span><small>02</small><b>MOVIMENTO</b></span><span><small>03</small><b>RESPONSIVO</b></span>
-                </div>
-                <div class="site-version"><small>VERSÃO</small><strong>10</strong><span>EDIÇÃO FINAL</span></div>
-              </div>
-              <div class="showcase-copy"><div class="copy-index">LAB / 03</div><h3>O próprio site<br/>é um laboratório.</h3><p>Cada versão testa uma ideia nova e refina estrutura, navegação, responsividade e desempenho sem perder a identidade aprovada.</p><span class="tag">V10 / EXPERIÊNCIA</span></div>
-            </article>
-            <div class="rail-endcap" aria-hidden="true"><span>FIM DA SEQUÊNCIA</span><i></i></div>
-          </div>
-          <div class="labs-counter"><span id="labsCounter">01</span><small>/ 03</small></div>
+    </section>
+
+    <section class="section alt" id="faq">
+      <div class="wrap narrow">
+        <div class="head"><h2>Dúvidas frequentes</h2></div>
+        <div class="faq">
+          <details><summary>Quanto custa um site ou sistema?</summary><p>Depende do tamanho e das funções do projeto. Depois de uma conversa rápida, você recebe uma proposta com valor e prazo fechados, sem surpresas.</p></details>
+          <details><summary>Quanto tempo leva para ficar pronto?</summary><p>Uma landing page costuma levar poucos dias. Sistemas e automações variam conforme a complexidade, e o prazo é combinado na proposta.</p></details>
+          <details><summary>Preciso entender de tecnologia?</summary><p>Não. Explicamos tudo em linguagem simples e cuidamos da parte técnica, incluindo domínio e publicação.</p></details>
+          <details><summary>O site vai funcionar no celular?</summary><p>Sim. Todos os projetos são feitos para funcionar bem em celular, tablet e computador.</p></details>
+          <details><summary>Vocês dão suporte depois da entrega?</summary><p>Sim. Seguimos disponíveis para ajustes, correções e novas funções conforme o seu negócio evolui.</p></details>
+          <details><summary>Atendem fora de Indaiatuba?</summary><p>Atendemos a região presencialmente e todo o Brasil de forma online.</p></details>
         </div>
       </div>
     </section>
 
-    <section class="services section" id="servicos">
-      <aside class="section-index reveal-up"><span>03</span><small>SERVIÇOS</small></aside>
-      <div class="services-main">
-        <div class="services-head"><h2 class="display reveal-up">DO CÓDIGO<br/>À <b>EXPERIÊNCIA.</b></h2><p class="reveal-up">Começando pelo que conseguimos construir com qualidade e ampliando a oferta conforme a MABELLO evolui.</p></div>
-        <div class="service-list">
-          <article class="service-row reveal-up" data-word="SITE"><small>01</small><h3>Sites & Landing Pages</h3><p>Presença digital rápida, responsiva e com direção visual forte.</p><em>HTML · CSS · JS</em><b>↗</b></article>
-          <article class="service-row reveal-up" data-word="WEB"><small>02</small><h3>Sistemas Web</h3><p>Ferramentas digitais para organizar fluxos, dados e rotinas.</p><em>INTERFACE · DADOS</em><b>↗</b></article>
-          <article class="service-row reveal-up" data-word="AUTO"><small>03</small><h3>Automação</h3><p>Integrações e processos que reduzem tarefas repetitivas.</p><em>PROCESSOS · INTEGRAÇÕES</em><b>↗</b></article>
-          <article class="service-row reveal-up" data-word="SOB MEDIDA"><small>04</small><h3>Soluções Sob Medida</h3><p>Produtos digitais pensados em torno de uma necessidade real.</p><em>ESTRATÉGIA · PRODUTO</em><b>↗</b></article>
-        </div>
+    <section class="cta">
+      <div class="wrap cta-in">
+        <h2>Vamos conversar sobre o seu projeto?</h2>
+        <p>Conte o que você precisa. Respondemos com uma orientação clara e sem compromisso.</p>
+        <a class="btn btn-light" href="#contato">Pedir orçamento</a>
       </div>
     </section>
 
-    <section class="process section" id="processo">
-      <aside class="section-index reveal-up"><span>04</span><small>PROCESSO</small></aside>
-      <div class="process-main">
-        <h2 class="display reveal-up">CLARO DO COMEÇO<br/><b>AO LANÇAMENTO.</b></h2>
-        <div class="process-grid">
-          <article class="process-step reveal-up"><span>01</span><div><h3>Descoberta</h3><p>Entendemos o problema, o público e o objetivo.</p></div><i>↘</i></article>
-          <article class="process-step reveal-up"><span>02</span><div><h3>Direção</h3><p>Definimos estrutura, linguagem visual e experiência.</p></div><i>↘</i></article>
-          <article class="process-step reveal-up"><span>03</span><div><h3>Construção</h3><p>Transformamos a ideia em código responsivo e organizado.</p></div><i>↘</i></article>
-          <article class="process-step reveal-up"><span>04</span><div><h3>Validação</h3><p>Testamos usabilidade, comportamento e desempenho.</p></div><i>↘</i></article>
-          <article class="process-step reveal-up"><span>05</span><div><h3>Lançamento</h3><p>Publicamos, conectamos o domínio e continuamos evoluindo.</p></div><i>↗</i></article>
+    <section class="section" id="contato">
+      <div class="wrap split">
+        <div class="head">
+          <h2>Fale com a MABELLO</h2>
+          <p>Preencha o formulário e a mensagem abre pronta no WhatsApp. Se preferir, use um dos contatos abaixo.</p>
+          <ul class="contacts">
+            <li><span>E-mail</span><a href="mailto:anderson.cauezinho@gmail.com">anderson.cauezinho@gmail.com</a></li>
+            <li><span>WhatsApp</span><a href="https://wa.me/5511966188923" target="_blank" rel="noreferrer">(11) 96618-8923</a></li>
+            <li><span>Instagram</span><a href="https://instagram.com/mabello.dev" target="_blank" rel="noreferrer">@mabello.dev</a></li>
+            <li><span>GitHub</span><a href="https://github.com/zLobex-eng" target="_blank" rel="noreferrer">github.com/zLobex-eng</a></li>
+            <li><span>Local</span><b>Indaiatuba, SP</b></li>
+          </ul>
         </div>
-      </div>
-    </section>
-
-    <section class="statement" aria-label="Posicionamento MABELLO">
-      <div class="statement-bg" id="statementBg">CRIE IMPACTO. CRIE IMPACTO.</div>
-      <div class="statement-lines" aria-hidden="true"></div>
-      <div class="statement-orb" id="statementOrb"><img src="assets/logo-mabello.png" alt=""/><small>MABELLO</small><strong>MENOS TEMPLATE.<br/>MAIS IDENTIDADE.</strong><span>TECNOLOGIA COM PROPÓSITO</span></div>
-    </section>
-
-
-    <section class="core section" id="core">
-      <aside class="section-index reveal-up"><span>05</span><small>MABELLO CORE</small></aside>
-      <div class="core-main">
-        <div class="core-head">
-          <p class="overline reveal-up">Tecnologia que você consegue ver — e sentir.</p>
-          <h2 class="display reveal-up">O CÓDIGO TAMBÉM<br/>FAZ PARTE DA <b>EXPERIÊNCIA.</b></h2>
-          <p class="core-lead reveal-up">Esta área mostra, de forma interativa, parte da lógica por trás do próprio site da MABELLO. Sem números inventados: só recursos que realmente existem aqui.</p>
-        </div>
-        <div class="core-grid">
-          <div class="terminal reveal-up" id="terminal">
-            <div class="terminal-top"><div><i></i><i></i><i></i></div><span>MABELLO_CORE.EXE</span><small>ONLINE</small></div>
-            <div class="terminal-body" id="terminalBody">
-              <p><span>mabello@core</span>:~$ <b>iniciar</b></p>
-              <p class="terminal-output">Sistema carregado. Digite <strong>ajuda</strong> para explorar. <span class="terminal-hint">Dica: pressione / para focar o terminal.</span></p>
-            </div>
-            <form class="terminal-form" id="terminalForm" autocomplete="off">
-              <label for="terminalInput">mabello@core:~$</label><input id="terminalInput" name="terminal" spellcheck="false" aria-label="Terminal interativo MABELLO" placeholder="ajuda"/><button type="submit">↵</button>
-            </form>
-          </div>
-          <div class="core-orbit reveal-up" aria-label="Tecnologias presentes neste site">
-            <div class="orbit-core"><img src="assets/logo-mabello.png" alt=""/><span>MABELLO</span><small>CORE</small></div>
-            <div class="orbit-line ol1"></div><div class="orbit-line ol2"></div><div class="orbit-line ol3"></div>
-            <span class="tech-node n1">HTML</span><span class="tech-node n2">CSS</span><span class="tech-node n3">JAVASCRIPT</span><span class="tech-node n4">CANVAS</span><span class="tech-node n5">RESPONSIVO</span><span class="tech-node n6">ACESSÍVEL</span>
-            <div class="core-scan"></div>
-          </div>
-        </div>
-        <div class="core-strip reveal-up"><span>SCROLL TRIGGER</span><i>+</i><span>CURSOR REATIVO</span><i>+</i><span>CANVAS</span><i>+</i><span>MICROINTERAÇÕES</span><i>+</i><span>RESPONSIVIDADE</span><i>+</i><span>REDUCED MOTION</span></div>
-      </div>
-    </section>
-
-    <section class="lobex section" id="lobex">
-      <aside class="section-index reveal-up"><span>06</span><small>LOBEX</small></aside>
-      <div class="lobex-main">
-        <div class="lobex-copy"><p class="overline reveal-up">O espírito da MABELLO.</p><h2 class="display reveal-up">ESTRATÉGIA,<br/>CURIOSIDADE E<br/><b>EVOLUÇÃO.</b></h2><p class="reveal-up">O Lobex representa a vontade de aprender, testar caminhos e transformar desafios em soluções. Ele aparece como parte da identidade — não como decoração aleatória.</p><blockquote class="reveal-up">“Se tem um jeito, eu codifico. Se não tem, eu crio.”</blockquote></div>
-        <div class="lobex-visual reveal-up"><div class="lobex-ring r1"></div><div class="lobex-ring r2"></div><div class="lobex-ring r3"></div><img src="assets/lobex.png" alt="Lobex, mascote lobo da MABELLO" /></div>
-      </div>
-    </section>
-
-    <section class="contact section" id="contato">
-      <aside class="section-index reveal-up"><span>07</span><small>CONTATO</small></aside>
-      <div class="contact-main">
-        <div class="contact-head"><h2 class="display reveal-up">TEM UMA IDEIA?<br/><b>VAMOS DAR MOVIMENTO.</b></h2><a class="contact-orb magnetic reveal-up" href="https://wa.me/5511966188923" target="_blank" rel="noreferrer"><span>FALAR NO<br/>WHATSAPP</span><b>↗</b></a></div>
-        <div class="contact-cards">
-          <a class="info-card reveal-up" href="mailto:anderson.cauezinho@gmail.com"><small>E-MAIL</small><strong>anderson.cauezinho@gmail.com</strong><b>↗</b></a>
-          <a class="info-card reveal-up" href="https://instagram.com/mabello.dev" target="_blank" rel="noreferrer"><small>INSTAGRAM</small><strong>@mabello.dev</strong><b>↗</b></a>
-          <a class="info-card reveal-up" href="https://wa.me/5511966188923" target="_blank" rel="noreferrer"><small>WHATSAPP</small><strong>(11) 96618-8923</strong><b>↗</b></a>
-          <div class="info-card reveal-up"><small>LOCALIZAÇÃO</small><strong>Indaiatuba — SP</strong><b>⌖</b></div>
-        </div>
+        <form class="form" id="form" novalidate>
+          <label for="nome">Seu nome</label>
+          <input id="nome" name="nome" type="text" autocomplete="name" required />
+          <label for="tipo">O que você precisa?</label>
+          <select id="tipo" name="tipo">
+            <option>Site ou landing page</option>
+            <option>Sistema web</option>
+            <option>Automação</option>
+            <option>Solução sob medida</option>
+            <option>Ainda não sei</option>
+          </select>
+          <label for="msg">Conte um pouco sobre o projeto</label>
+          <textarea id="msg" name="msg" rows="4" required></textarea>
+          <p class="err" id="err" role="alert" hidden>Preencha seu nome e a descrição do projeto.</p>
+          <button class="btn" type="submit">Enviar pelo WhatsApp</button>
+        </form>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="footer-brand"><a class="brand" href="#top"><img src="assets/logo-mabello.png" alt="Símbolo MABELLO"/><strong>MABELLO</strong><small>T.I.</small></a><p>Tecnologia que conecta.<br/>Soluções que transformam.</p></div>
-    <div class="footer-nav"><small>NAVEGAÇÃO</small><a href="#sobre">Sobre</a><a href="#labs">Labs</a><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#core">Core</a></div>
-    <div class="footer-nav"><small>CONTATO</small><a href="mailto:anderson.cauezinho@gmail.com">E-mail</a><a href="https://instagram.com/mabello.dev">Instagram</a><a href="https://wa.me/5511966188923">WhatsApp</a></div>
-    <span class="copyright">© 2026 MABELLO</span>
+  <footer class="footer">
+    <div class="wrap foot">
+      <a class="brand" href="#inicio"><img src="assets/logo-mabello.png" alt="" width="34" height="30" /><strong>MABELLO</strong><span>T.I.</span></a>
+      <p>Tecnologia que conecta. Soluções que transformam.</p>
+      <nav aria-label="Rodapé"><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#projetos">Portfólio</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
+      <small>© 2026 MABELLO T.I. · Indaiatuba, SP</small>
+    </div>
   </footer>
-  <button class="back-top" id="backTop" type="button" aria-label="Voltar ao topo">↑</button>
+
   <script src="script.js" defer></script>
 </body>
 </html>
